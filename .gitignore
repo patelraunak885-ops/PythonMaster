@@ -33,7 +33,7 @@ dist/
 *.log
 
 # IDE and editor
-.vscode/
+.vscode/*
 .idea/
 
 # OS-generated files
@@ -43,3 +43,9 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Personal VS Code settings
+.vscode/settings.local.json
+.vscode/launch.local.json
+
+!.vscode/settings.json
